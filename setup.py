@@ -7,7 +7,7 @@ with open(path.join(here.replace('\\','/'),"README.md"),encoding='utf-8') as fh:
 
 setup(
     name='baiToVoice',
-    version='1.2',
+    version='1.2.2',
     author="Cendeal",
     author_email="1798062051@qq.com",
     description="基于百度语音合成开发的，可以更加简单的使用百度语音合成的，生成你需要的语音mp3文件或者二进制数据",
@@ -21,4 +21,5 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License"
     ],
+    install_requires=['requests']
 )
